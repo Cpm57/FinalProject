@@ -1,0 +1,61 @@
+.habit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+  }
+  
+  .habit-item {
+    padding: 12px 16px;
+    background-color: #ffeaa7;
+    border-radius: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .habit-item.completed {
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: line-through;
+  }
+  
+  .habit-item:hover {
+    background-color: #fdcb6e;
+    transform: scale(1.02);
+  }
+  
+  .habit-name {
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  
+  .completed-text {
+    color: #6c5ce7;
+  }
+  
+  .remove-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .habit-info {
+    display: flex;
+    align-items: center;
+  }
+  

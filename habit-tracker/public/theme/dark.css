@@ -1,0 +1,37 @@
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  background-color: #2c2c2c;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+input, select, button {
+  margin: 8px;
+  padding: 8px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+button {
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #019874;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  border-bottom: 2px solid #00b894;
+}
